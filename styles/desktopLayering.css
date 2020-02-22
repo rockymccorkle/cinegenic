@@ -1,0 +1,1616 @@
+/* Rocky Responsive */
+
+
+/* Body */
+
+body {
+  background-color: rgba(86, 58, 130, 1.0);
+}
+
+.wrapper {
+
+  width: 500px;
+  background-color: darkgoldenrod;
+}
+
+/* Overall */
+
+.desktoplayering {
+  width               : 100%;
+  min-width           : 1920px;
+  height              : 100vh;
+  min-height          : 14761px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  background-color    : rgba(86, 58, 130, 1.0);
+}
+
+
+a {
+  text-decoration     : none;
+}
+
+
+/* Header */
+
+
+/* Header Stack */
+
+.desktoplayering .headerstack {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -24px;
+  height              : 156px;
+  width               : 1920px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); 
+  -webkit-transform   : rotate(0deg); 
+  transform           : rotate(0deg);
+}
+
+.desktoplayering .headerstack .searchicon {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 56px;
+  height              : 100px;
+  width               : 100px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1740px;
+  -ms-transform       : rotate(0deg); 
+  -webkit-transform   : rotate(0deg); 
+  transform           : rotate(0deg);
+}
+
+.desktoplayering .headerstack .burger {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 63px;
+  height              : 22px;
+  width               : 31px;
+  position            : absolute;
+  margin              : 0;
+  left                : 142px;
+  -ms-transform       : rotate(0deg); 
+  -webkit-transform   : rotate(0deg); 
+  transform           : rotate(0deg);
+}
+
+.desktoplayering .headerstack .burger .path4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 9px;
+  height              : 4px;
+  width               : 31px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); 
+  -webkit-transform   : rotate(0deg); 
+  transform           : rotate(0deg);
+}
+
+.desktoplayering .headerstack .burger .path5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 4px;
+  width               : 31px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); 
+  -webkit-transform   : rotate(0deg); 
+  transform           : rotate(0deg);
+}
+
+.desktoplayering .headerstack .burger .path6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 18px;
+  height              : 4px;
+  width               : 31px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); 
+  -webkit-transform   : rotate(0deg); 
+  transform           : rotate(0deg);
+}
+
+.desktoplayering .headerstack .logostack {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : row;
+  align-items         : center;
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 66px;
+  height              : 20px;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 793px;
+  -ms-transform       : rotate(0deg); 
+  -webkit-transform   : rotate(0deg); 
+  transform           : rotate(0deg);
+}
+
+.desktoplayering .headerstack .logostack .logotype {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 20px;
+  margin              : 0;
+  width               : 335px;
+  -ms-transform       : rotate(0deg); 
+  -webkit-transform   : rotate(0deg); 
+  transform           : rotate(0deg);
+}
+
+
+
+/* Above the Fold */
+
+.desktoplayering .abovethefold {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 168px;
+  height              : 1020px;
+  width               : 2455px;
+  position            : absolute;
+  margin              : 0;
+  left                : 124px;
+  -ms-transform       : rotate(0deg); 
+  -webkit-transform   : rotate(0deg); 
+  transform           : rotate(0deg);
+}
+
+.desktoplayering .abovethefold .headerimg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  min-width           : 200px;
+  height              : 1020px;
+  width               : 1808px;
+  min-height          : 200px;
+  position            : absolute;
+  margin              : 0;
+  left                : 647px;
+  -ms-transform       : rotate(0deg); 
+  -webkit-transform   : rotate(0deg); 
+  transform           : rotate(0deg);
+}
+
+.desktoplayering .abovethefold .linksstack {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : column;
+  align-items         : flex-start;
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 643px;
+  height              : auto;
+  width               : 156px;
+  position            : absolute;
+  margin              : 0;
+  left                : 24px;
+  -ms-transform       : rotate(0deg); 
+  -webkit-transform   : rotate(0deg); 
+  transform           : rotate(0deg);
+}
+
+.desktoplayering .abovethefold .linksstack .a00overview {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0;
+  width               : 118px;
+  -ms-transform       : rotate(0deg); 
+  -webkit-transform   : rotate(0deg); 
+  transform           : rotate(0deg);
+  font-family         : "Avenir-Book", Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 27.0px;
+}
+
+.desktoplayering .abovethefold .linksstack .a01cirriculum {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 10px 0 0 0;
+  width               : 125px;
+  -ms-transform       : rotate(0deg); 
+  -webkit-transform   : rotate(0deg); 
+  transform           : rotate(0deg);
+  font-family         : "Avenir-Book", Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 27.0px;
+}
+
+.desktoplayering .abovethefold .linksstack .a02tuition {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 10px 0 0 0;
+  width               : 94px;
+  -ms-transform       : rotate(0deg); 
+  -webkit-transform   : rotate(0deg); 
+  transform           : rotate(0deg);
+  font-family         : "Avenir-Book", Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 26.0px;
+}
+
+.desktoplayering .abovethefold .linksstack .a03admissions {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 10px 0 0 0;
+  width               : 135px;
+  -ms-transform       : rotate(0deg); 
+  -webkit-transform   : rotate(0deg); 
+  transform           : rotate(0deg);
+  font-family         : "Avenir-Book", Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 26.0px;
+}
+
+.desktoplayering .abovethefold .linksstack .a04studentwork {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 10px 0 0 0;
+  width               : 156px;
+  -ms-transform       : rotate(0deg); 
+  -webkit-transform   : rotate(0deg); 
+  transform           : rotate(0deg);
+  font-family         : "Avenir-Book", Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 26.0px;
+}
+
+.desktoplayering .abovethefold .lockup {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 48px;
+  height              : calc(100.00% - 488px);
+  width               : calc(100.00% - 1220px);
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); 
+  -webkit-transform   : rotate(0deg); 
+  transform           : rotate(0deg);
+}
+
+.desktoplayering .abovethefold .lockup .highlight {
+  background-color    : rgba(209, 168, 10, 1.0);
+  top                 : 175px;
+  height              : 336px;
+  width               : 1072px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); 
+  -webkit-transform   : rotate(0deg); 
+  transform           : rotate(0deg);
+}
+
+.desktoplayering .abovethefold .lockup .graphicdesign {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 1227px;
+  position            : absolute;
+  margin              : 0;
+  left                : 8px;
+  -ms-transform       : rotate(0deg); 
+  -webkit-transform   : rotate(0deg); 
+  transform           : rotate(0deg);
+  font-family         : "Avenir-Black", Arial, serif;
+  font-size           : 250.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 220.0px;
+}
+
+.desktoplayering .abovethefold .lockup .schoolawayfromschool {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 440px;
+  height              : auto;
+  width               : 891px;
+  position            : absolute;
+  margin              : 0;
+  left                : 26px;
+  -ms-transform       : rotate(0deg); 
+  -webkit-transform   : rotate(0deg); 
+  transform           : rotate(0deg);
+  font-family         : "Avenir-Heavy", Arial, serif;
+  font-size           : 63.0px;
+  color               : rgba(240, 230, 164, 1.0);
+  text-align          : left;
+  line-height         : 86.0px;
+}
+
+
+
+/* Down Arrow */
+
+
+.desktoplayering .downarrow {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1891px;
+  height              : 928px;
+  width               : 1301px;
+  position            : absolute;
+  margin              : 0;
+  left                : 116px;
+  -ms-transform       : rotate(0deg); 
+  -webkit-transform   : rotate(0deg); 
+  transform           : rotate(0deg);
+}
+
+.desktoplayering .downarrow .u279c {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -186px;
+  height              : 1300px;
+  width               : 927px;
+  position            : absolute;
+  margin              : 0;
+  left                : 187px;
+  -ms-transform       : rotate(90deg); 
+  -webkit-transform   : rotate(90deg); 
+  transform           : rotate(90deg);
+}
+
+.desktoplayering .downarrow .thiswaytogd {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 255px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 713px;
+  -ms-transform       : rotate(90deg); 
+  -webkit-transform   : rotate(90deg); 
+  transform           : rotate(90deg);
+  font-family         : "Avenir-Black", Arial, serif;
+  font-size           : 36.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 46.0px;
+}
+
+
+
+
+
+/* Quote 1 */
+
+.desktoplayering .quote1 {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 1210px;
+  height              : auto;
+  pointer-events      : auto;
+  position            : relative;
+  -ms-transform       : rotate(0deg); 
+  -webkit-transform   : rotate(0deg); 
+  transform           : rotate(0deg);
+  font-family         : "Avenir-BlackOblique", Arial, serif;
+  font-size           : 50.0px;
+  color               : rgba(250, 250, 250, 1.0);
+  text-align          : center;
+  line-height         : 68.0px;
+}
+
+.desktoplayering .quote1-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 1272px;
+  align-items         : center;
+  height              : auto;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+
+.desktoplayering .quote1 .span1 {
+  
+}
+
+.desktoplayering .quote1 .span2 {
+  text-decoration     : underline;
+}
+
+.desktoplayering .quote1 .span3 {
+  
+}
+
+
+
+/* Overview */
+
+.desktoplayering .overview {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2495px;
+  height              : 1170px;
+  width               : 1920px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); 
+  -webkit-transform   : rotate(0deg); 
+  transform           : rotate(0deg);
+}
+
+.desktoplayering .overview .overviewbg {
+  background-color    : rgba(250, 250, 250, 1.0);
+  top                 : 0px;
+  height              : 1170px;
+  width               : 1920px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); 
+  -webkit-transform   : rotate(0deg); 
+  transform           : rotate(0deg);
+}
+
+.desktoplayering .overview .a00overview {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 221px;
+  height              : auto;
+  width               : 575px;
+  position            : absolute;
+  margin              : 0;
+  left                : 148px;
+  -ms-transform       : rotate(0deg); 
+  -webkit-transform   : rotate(0deg); 
+  transform           : rotate(0deg);
+  font-family         : "Avenir-Black", Arial, serif;
+  font-size           : 84.0px;
+  color               : rgba(209, 168, 10, 1.0);
+  text-align          : left;
+  line-height         : 115.0px;
+}
+
+.desktoplayering .overview .line3overview {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 326px;
+  height              : 12px;
+  width               : 100px;
+  position            : absolute;
+  margin              : 0;
+  left                : 148px;
+  -ms-transform       : rotate(0deg); 
+  -webkit-transform   : rotate(0deg); 
+  transform           : rotate(0deg);
+}
+
+.desktoplayering .overview .overviewsubhead {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 377px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 148px;
+  -ms-transform       : rotate(0deg); 
+  -webkit-transform   : rotate(0deg); 
+  transform           : rotate(0deg);
+  font-family         : "Avenir-Black", Arial, serif;
+  font-size           : 26.0px;
+  color               : rgba(86, 58, 130, 1.0);
+  text-align          : left;
+  line-height         : 33.0px;
+}
+
+.desktoplayering .overview .overviewstack {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : row;
+  align-items         : flex-start;
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 472px;
+  height              : 429px;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 148px;
+  -ms-transform       : rotate(0deg); 
+  -webkit-transform   : rotate(0deg); 
+  transform           : rotate(0deg);
+}
+
+.desktoplayering .overview .overviewstack .overviewcopy {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0;
+  width               : 792px;
+  -ms-transform       : rotate(0deg); 
+  -webkit-transform   : rotate(0deg); 
+  transform           : rotate(0deg);
+  font-family         : "Avenir-Roman", Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+
+.desktoplayering .overview .overviewstack .overviewcolumn2 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0 0 0 40px;
+  width               : 792px;
+  -ms-transform       : rotate(0deg); 
+  -webkit-transform   : rotate(0deg); 
+  transform           : rotate(0deg);
+  font-family         : "Avenir-Roman", Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+
+.desktoplayering .overview .overviewstack .overviewcolumn2 .span1 {
+  line-height         : 22.0px;
+}
+
+.desktoplayering .overview .overviewstack .overviewcolumn2 .span2 {
+  font-family         : "Avenir-Black", Arial, serif;
+  font-size           : 24.0px;
+  line-height         : 33.0px;
+}
+
+.desktoplayering .overview .overviewstack .overviewcolumn2 .span3 {
+  line-height         : 22.0px;
+}
+
+
+
+/* Stats */
+
+.desktoplayering .stats {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3814px;
+  height              : 1343px;
+  width               : 1410px;
+  position            : absolute;
+  margin              : 0;
+  left                : 298px;
+  -ms-transform       : rotate(0deg); 
+  -webkit-transform   : rotate(0deg); 
+  transform           : rotate(0deg);
+}
+
+.desktoplayering .stats .stats1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 221px;
+  height              : 1122px;
+  width               : 1410px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); 
+  -webkit-transform   : rotate(0deg); 
+  transform           : rotate(0deg);
+}
+
+.desktoplayering .stats .stats1 .a36 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  -ms-transform       : rotate(0deg); 
+  -webkit-transform   : rotate(0deg); 
+  transform           : rotate(0deg);
+  font-family         : "Avenir-Heavy", Arial, serif;
+  font-size           : 446.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : -31.22px;
+  line-height         : 579.0px;
+}
+
+.desktoplayering .stats .stats1 .a42 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 543px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  -ms-transform       : rotate(0deg); 
+  -webkit-transform   : rotate(0deg); 
+  transform           : rotate(0deg);
+  font-family         : "Avenir-Heavy", Arial, serif;
+  font-size           : 446.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : -31.22px;
+  line-height         : 579.0px;
+}
+
+.desktoplayering .stats .stats1 .a49 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 838px;
+  -ms-transform       : rotate(0deg); 
+  -webkit-transform   : rotate(0deg); 
+  transform           : rotate(0deg);
+  font-family         : "Avenir-Heavy", Arial, serif;
+  font-size           : 446.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : -35.68px;
+  line-height         : 579.0px;
+}
+
+.desktoplayering .stats .stats1 .a127 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 543px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 723px;
+  -ms-transform       : rotate(0deg); 
+  -webkit-transform   : rotate(0deg); 
+  transform           : rotate(0deg);
+  font-family         : "Avenir-Heavy", Arial, serif;
+  font-size           : 446.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : -35.68px;
+  line-height         : 579.0px;
+}
+
+.desktoplayering .stats .stats1 .generaleducationcredits {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 46px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 67px;
+  -ms-transform       : rotate(0deg); 
+  -webkit-transform   : rotate(0deg); 
+  transform           : rotate(0deg);
+  font-family         : "Avenir-Light", Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 3.7px;
+  line-height         : 20.0px;
+}
+
+.desktoplayering .stats .stats1 .electives {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 617px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 176px;
+  -ms-transform       : rotate(0deg); 
+  -webkit-transform   : rotate(0deg); 
+  transform           : rotate(0deg);
+  font-family         : "Avenir-Light", Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 3.7px;
+  line-height         : 20.0px;
+}
+
+.desktoplayering .stats .stats1 .majorcredits {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 46px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 980px;
+  -ms-transform       : rotate(0deg); 
+  -webkit-transform   : rotate(0deg); 
+  transform           : rotate(0deg);
+  font-family         : "Avenir-Light", Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 3.7px;
+  line-height         : 20.0px;
+}
+
+.desktoplayering .stats .stats1 .totalcredits {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 617px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 983px;
+  -ms-transform       : rotate(0deg); 
+  -webkit-transform   : rotate(0deg); 
+  transform           : rotate(0deg);
+  font-family         : "Avenir-Light", Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 3.7px;
+  line-height         : 20.0px;
+}
+
+.desktoplayering .stats .statsheader {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 58px;
+  -ms-transform       : rotate(0deg); 
+  -webkit-transform   : rotate(0deg); 
+  transform           : rotate(0deg);
+  font-family         : "Avenir-Black", Arial, serif;
+  font-size           : 58.0px;
+  color               : rgba(240, 230, 164, 1.0);
+  text-align          : left;
+  line-height         : 75.0px;
+}
+
+
+
+
+/* Quote 2 */
+
+.desktoplayering .quote2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 8308px;
+  height              : 1898px;
+  width               : 1957px;
+  position            : absolute;
+  margin              : 0;
+  left                : 148px;
+  -ms-transform       : rotate(0deg); 
+  -webkit-transform   : rotate(0deg); 
+  transform           : rotate(0deg);
+}
+
+.desktoplayering .quote2 .quotehighlight {
+  background-color    : rgba(209, 168, 10, 1.0);
+  top                 : 249px;
+  height              : 344px;
+  width               : 962px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); 
+  -webkit-transform   : rotate(0deg); 
+  transform           : rotate(0deg);
+}
+
+.desktoplayering .quote2 .quote21 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 1002px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); 
+  -webkit-transform   : rotate(0deg); 
+  transform           : rotate(0deg);
+  font-family         : "Avenir-Black", Arial, serif;
+  font-size           : 250.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : -7.5px;
+  line-height         : 250.0px;
+}
+
+.desktoplayering .quote2 .arrow1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 597px;
+  height              : 1300px;
+  width               : 927px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1030px;
+  -ms-transform       : rotate(0deg); 
+  -webkit-transform   : rotate(0deg); 
+  transform           : rotate(0deg);
+}
+
+
+
+
+
+/* Cirriculum */
+
+
+.desktoplayering .cirriculum {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5358px;
+  height              : 2752px;
+  width               : 1920px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); 
+  -webkit-transform   : rotate(0deg); 
+  transform           : rotate(0deg);
+}
+
+.desktoplayering .cirriculum .cirriculumbg {
+  background-color    : rgba(250, 250, 250, 1.0);
+  top                 : 0px;
+  height              : 2752px;
+  width               : 1920px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); 
+  -webkit-transform   : rotate(0deg); 
+  transform           : rotate(0deg);
+}
+
+.desktoplayering .cirriculum .cirriculumpic {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1458px;
+  height              : 1082px;
+  width               : 1623px;
+  position            : absolute;
+  margin              : 0;
+  left                : 148px;
+  -ms-transform       : rotate(0deg); 
+  -webkit-transform   : rotate(0deg); 
+  transform           : rotate(0deg);
+}
+
+.desktoplayering .cirriculum .cirriculumline {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 272px;
+  height              : 12px;
+  width               : 100px;
+  position            : absolute;
+  margin              : 0;
+  left                : 148px;
+  -ms-transform       : rotate(0deg); 
+  -webkit-transform   : rotate(0deg); 
+  transform           : rotate(0deg);
+}
+
+.desktoplayering .cirriculum .a01cirriculum {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 154px;
+  height              : auto;
+  width               : 575px;
+  position            : absolute;
+  margin              : 0;
+  left                : 148px;
+  -ms-transform       : rotate(0deg); 
+  -webkit-transform   : rotate(0deg); 
+  transform           : rotate(0deg);
+  font-family         : "Avenir-Black", Arial, serif;
+  font-size           : 84.0px;
+  color               : rgba(209, 168, 10, 1.0);
+  text-align          : left;
+  line-height         : 115.0px;
+}
+
+.desktoplayering .cirriculum .stackedgroup {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : row;
+  align-items         : flex-start;
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 349px;
+  height              : 1072px;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 148px;
+  -ms-transform       : rotate(0deg); 
+  -webkit-transform   : rotate(0deg); 
+  transform           : rotate(0deg);
+}
+
+.desktoplayering .cirriculum .stackedgroup .cirrcolumn1stack {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : column;
+  align-items         : center;
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0;
+  width               : 792px;
+  -ms-transform       : rotate(0deg); 
+  -webkit-transform   : rotate(0deg); 
+  transform           : rotate(0deg);
+}
+
+.desktoplayering .cirriculum .stackedgroup .cirrcolumn1stack .cirriculumcopy1 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0;
+  width               : 794px;
+  -ms-transform       : rotate(0deg); 
+  -webkit-transform   : rotate(0deg); 
+  transform           : rotate(0deg);
+  font-family         : "Avenir-Black", Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+
+
+.desktoplayering .cirriculum .stackedgroup .cirrcolumn1stack .cirriculumcopy1 .span1 {
+  line-height         : 33.0px;
+}
+
+
+.desktoplayering .cirriculum .stackedgroup .cirrcolumn1stack .cirriculumcopy1 .span2 {
+  font-family         : "Avenir-Roman", Arial, serif;
+  font-size           : 16.0px;
+  line-height         : 22.0px;
+}
+
+
+.desktoplayering .cirriculum .stackedgroup .cirrcolumn1stack .cirriculumcopy1 .span3 {
+  font-family         : "Avenir-Oblique", Arial, serif;
+  font-size           : 16.0px;
+  line-height         : 22.0px;
+}
+
+
+.desktoplayering .cirriculum .stackedgroup .cirrcolumn1stack .cirriculumcopy1 .span4 {
+  font-family         : "Avenir-Roman", Arial, serif;
+  font-size           : 16.0px;
+  line-height         : 22.0px;
+}
+
+.desktoplayering .cirriculum .stackedgroup .cirrcolumn1stack .accordiancopy {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 14px 0 0 0;
+  width               : 794px;
+  -ms-transform       : rotate(0deg); 
+  -webkit-transform   : rotate(0deg); 
+  transform           : rotate(0deg);
+  font-family         : "Avenir-Roman", Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 49.0px;
+}
+
+.desktoplayering .cirriculum .stackedgroup .cirriculumcopy2 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0 0 0 40px;
+  width               : 792px;
+  -ms-transform       : rotate(0deg); 
+  -webkit-transform   : rotate(0deg); 
+  transform           : rotate(0deg);
+  font-family         : "Avenir-Black", Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+
+.desktoplayering .cirriculum .stackedgroup .cirriculumcopy2 .span1 {
+  line-height         : 33.0px;
+}
+
+.desktoplayering .cirriculum .stackedgroup .cirriculumcopy2 .span2 {
+  font-family         : "Avenir-Roman", Arial, serif;
+  font-size           : 16.0px;
+  line-height         : 22.0px;
+}
+
+
+.desktoplayering .cirriculum .stackedgroup .cirriculumcopy2 .span3 {
+  line-height         : 33.0px;
+}
+
+
+.desktoplayering .cirriculum .stackedgroup .cirriculumcopy2 .span4 {
+  font-family         : "Avenir-Roman", Arial, serif;
+  font-size           : 16.0px;
+  line-height         : 22.0px;
+}
+
+.desktoplayering .cirriculum .stackedgroup .cirriculumcopy2 .span5 {
+  line-height         : 33.0px;
+}
+
+.desktoplayering .cirriculum .stackedgroup .cirriculumcopy2 .span6 {
+  font-family         : "Avenir-Roman", Arial, serif;
+  font-size           : 16.0px;
+  line-height         : 22.0px;
+}
+
+
+
+/* Apply By */
+
+.desktoplayering .applyby {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 11337px;
+  height              : auto;
+  width               : 1210px;
+  position            : absolute;
+  margin              : 0;
+  left                : 373px;
+  -ms-transform       : rotate(0deg); 
+  -webkit-transform   : rotate(0deg); 
+  transform           : rotate(0deg);
+  font-family         : "Avenir-Black", Arial, serif;
+  font-size           : 84.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.84px;
+  line-height         : 103.0px;
+}
+
+
+/* Tuition */
+
+
+.desktoplayering .tuition {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10277px;
+  height              : 915px;
+  width               : 1625px;
+  position            : absolute;
+  margin              : 0;
+  left                : 148px;
+  -ms-transform       : rotate(0deg); 
+  -webkit-transform   : rotate(0deg); 
+  transform           : rotate(0deg);
+}
+
+.desktoplayering .tuition .tuitionbg {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 1px;
+  height              : 914px;
+  width               : 1624px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); 
+  -webkit-transform   : rotate(0deg); 
+  transform           : rotate(0deg);
+}
+
+.desktoplayering .tuition .tuitionimage {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 915px;
+  width               : 793px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); 
+  -webkit-transform   : rotate(0deg); 
+  transform           : rotate(0deg);
+}
+
+.desktoplayering .tuition .tuitionimage .e6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 914px;
+  width               : 792px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); 
+  -webkit-transform   : rotate(0deg); 
+  transform           : rotate(0deg);
+}
+
+.desktoplayering .tuition .tuitionimage .c8 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -4px;
+  height              : 924px;
+  width               : 1617px;
+  position            : absolute;
+  margin              : 0;
+  left                : -291px;
+  -ms-transform       : rotate(0deg); 
+  -webkit-transform   : rotate(0deg); 
+  transform           : rotate(0deg);
+}
+
+.desktoplayering .tuition .tuitioncopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 311px;
+  height              : auto;
+  width               : 715px;
+  position            : absolute;
+  margin              : 0;
+  left                : 832px;
+  -ms-transform       : rotate(0deg); 
+  -webkit-transform   : rotate(0deg); 
+  transform           : rotate(0deg);
+  font-family         : "Avenir-Black", Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+
+.desktoplayering .tuition .tuitioncopy .span1 {
+  line-height         : 33.0px;
+}
+
+.desktoplayering .tuition .tuitioncopy .span2 {
+  font-family         : "Avenir-Roman", Arial, serif;
+  font-size           : 16.0px;
+  line-height         : 22.0px;
+}
+
+.desktoplayering .tuition .tuitioncopy .span3 {
+  line-height         : 33.0px;
+}
+
+.desktoplayering .tuition .tuitioncopy .span4 {
+  font-family         : "Avenir-Roman", Arial, serif;
+  font-size           : 16.0px;
+  line-height         : 22.0px;
+}
+
+.desktoplayering .tuition .tuitioncopy .span5 {
+  font-family         : "Avenir-Oblique", Arial, serif;
+  font-size           : 16.0px;
+  line-height         : 22.0px;
+}
+
+.desktoplayering .tuition .tuitioncopy .span6 {
+  font-family         : "Avenir-Roman", Arial, serif;
+  font-size           : 16.0px;
+  line-height         : 22.0px;
+}
+
+.desktoplayering .tuition .a02tuition {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 143px;
+  height              : auto;
+  width               : 575px;
+  position            : absolute;
+  margin              : 0;
+  left                : 832px;
+  -ms-transform       : rotate(0deg); 
+  -webkit-transform   : rotate(0deg); 
+  transform           : rotate(0deg);
+  font-family         : "Avenir-Black", Arial, serif;
+  font-size           : 84.0px;
+  color               : rgba(209, 168, 10, 1.0);
+  text-align          : left;
+  line-height         : 115.0px;
+}
+
+
+
+
+
+/* Admissions */
+
+.desktoplayering .admissions {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 11692px;
+  height              : 1630px;
+  width               : 1625px;
+  position            : absolute;
+  margin              : 0;
+  left                : 148px;
+  -ms-transform       : rotate(0deg); 
+  -webkit-transform   : rotate(0deg); 
+  transform           : rotate(0deg);
+}
+
+.desktoplayering .admissions .admissionsbg {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 1630px;
+  width               : 1624px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); 
+  -webkit-transform   : rotate(0deg); 
+  transform           : rotate(0deg);
+}
+
+.desktoplayering .admissions .admissionsimage {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 1630px;
+  width               : 793px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); 
+  -webkit-transform   : rotate(0deg); 
+  transform           : rotate(0deg);
+}
+
+.desktoplayering .admissions .admissionsimage .image7e {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 1630px;
+  width               : 792px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); 
+  -webkit-transform   : rotate(0deg); 
+  transform           : rotate(0deg);
+}
+
+.desktoplayering .admissions .admissionsimage .e8 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 1630px;
+  width               : 2445px;
+  position            : absolute;
+  margin              : 0;
+  left                : -556px;
+  -ms-transform       : rotate(0deg); 
+  -webkit-transform   : rotate(0deg); 
+  transform           : rotate(0deg);
+}
+
+.desktoplayering .admissions .admissioncopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 309px;
+  height              : auto;
+  width               : 715px;
+  position            : absolute;
+  margin              : 0;
+  left                : 832px;
+  -ms-transform       : rotate(0deg); 
+  -webkit-transform   : rotate(0deg); 
+  transform           : rotate(0deg);
+  font-family         : "Avenir-Black", Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+
+.desktoplayering .admissions .admissioncopy .span1 {
+  line-height         : 33.0px;
+}
+
+.desktoplayering .admissions .admissioncopy .span2 {
+  font-family         : "Avenir-Roman", Arial, serif;
+  font-size           : 16.0px;
+  line-height         : 22.0px;
+}
+
+.desktoplayering .admissions .a03admissions {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 136px;
+  height              : auto;
+  width               : 575px;
+  position            : absolute;
+  margin              : 0;
+  left                : 832px;
+  -ms-transform       : rotate(0deg); 
+  -webkit-transform   : rotate(0deg); 
+  transform           : rotate(0deg);
+  font-family         : "Avenir-Black", Arial, serif;
+  font-size           : 84.0px;
+  color               : rgba(209, 168, 10, 1.0);
+  text-align          : left;
+  line-height         : 115.0px;
+}
+
+.desktoplayering .admissions .line1admissions {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 250px;
+  height              : 12px;
+  width               : 100px;
+  position            : absolute;
+  margin              : 0;
+  left                : 831px;
+  -ms-transform       : rotate(0deg); 
+  -webkit-transform   : rotate(0deg); 
+  transform           : rotate(0deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Student Work */
+
+.desktoplayering .studentwork .studentworkimages {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 193px;
+  height              : 570px;
+  width               : 1628px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  -ms-transform       : rotate(0deg); 
+  -webkit-transform   : rotate(0deg); 
+  transform           : rotate(0deg);
+}
+
+.desktoplayering .studentwork .studentworkimages .stackedgroup {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : row;
+  align-items         : flex-end;
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 570px;
+  width               : auto;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); 
+  -webkit-transform   : rotate(0deg); 
+  transform           : rotate(0deg);
+}
+
+.desktoplayering .studentwork .studentworkimages .stackedgroup .stackedgroup1 {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : row;
+  align-items         : center;
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 570px;
+  margin              : 0;
+  width               : auto;
+  -ms-transform       : rotate(0deg); 
+  -webkit-transform   : rotate(0deg); 
+  transform           : rotate(0deg);
+}
+
+.desktoplayering .studentwork .studentworkimages .stackedgroup .stackedgroup1 .student1 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 570px;
+  margin              : 0;
+  width               : 387px;
+  -ms-transform       : rotate(0deg); 
+  -webkit-transform   : rotate(0deg); 
+  transform           : rotate(0deg);
+}
+
+.desktoplayering .studentwork .studentworkimages .stackedgroup .stackedgroup1 .student2 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 570px;
+  margin              : 0 0 0 28px;
+  width               : 386px;
+  -ms-transform       : rotate(0deg); 
+  -webkit-transform   : rotate(0deg); 
+  transform           : rotate(0deg);
+}
+
+.desktoplayering .studentwork .studentworkimages .stackedgroup .stackedgroup1 .student3 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 570px;
+  margin              : 0 0 0 28px;
+  width               : 387px;
+  -ms-transform       : rotate(0deg); 
+  -webkit-transform   : rotate(0deg); 
+  transform           : rotate(0deg);
+}
+
+.desktoplayering .studentwork .studentworkimages .stackedgroup .stackedgroup1 .student4 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 570px;
+  margin              : 0 0 0 28px;
+  width               : 384px;
+  -ms-transform       : rotate(0deg); 
+  -webkit-transform   : rotate(0deg); 
+  transform           : rotate(0deg);
+}
+
+.desktoplayering .studentwork .studentcopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 817px;
+  height              : auto;
+  width               : 795px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); 
+  -webkit-transform   : rotate(0deg); 
+  transform           : rotate(0deg);
+  font-family         : "Avenir-Roman", Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+
+.desktoplayering .studentwork .line7student {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 110px;
+  height              : 12px;
+  width               : 109px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  -ms-transform       : rotate(0deg); 
+  -webkit-transform   : rotate(0deg); 
+  transform           : rotate(0deg);
+}
+
+.desktoplayering .studentwork .buportfolios {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); 
+  -webkit-transform   : rotate(0deg); 
+  transform           : rotate(0deg);
+  font-family         : "Avenir-Black", Arial, serif;
+  font-size           : 84.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.84px;
+  line-height         : 109.0px;
+}
+
+.desktoplayering .studentwork .buportfolios .span1 {
+  
+}
+.desktoplayering .studentwork .buportfolios .span2 {
+  
+}
+
+
+
+
+/* Footer */
+
+.desktoplayering .footer {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 14454px;
+  height              : 168px;
+  width               : 1570px;
+  position            : absolute;
+  margin              : 0;
+  left                : 148px;
+  -ms-transform       : rotate(0deg); 
+  -webkit-transform   : rotate(0deg); 
+  transform           : rotate(0deg);
+}
+
+
+.desktoplayering .footer .address {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 27px;
+  height              : auto;
+  width               : 1364px;
+  position            : absolute;
+  margin              : 0;
+  left                : 208px;
+  -ms-transform       : rotate(0deg); 
+  -webkit-transform   : rotate(0deg); 
+  transform           : rotate(0deg);
+  font-family         : "Avenir-Book", Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 27.0px;
+}
+
+
+.desktoplayering .footer .bulogo {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 168px;
+  width               : 168px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); 
+  -webkit-transform   : rotate(0deg); 
+  transform           : rotate(0deg);
+}
+
+
+.desktoplayering .studentwork {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 13514px;
+  height              : 893px;
+  width               : 1629px;
+  position            : absolute;
+  margin              : 0;
+  left                : 144px;
+  -ms-transform       : rotate(0deg); 
+  -webkit-transform   : rotate(0deg); 
+  transform           : rotate(0deg);
+}
+
+
+/* Responsive Code */
+
+/* For desktop 1920 to iPad Pro 1024 */
+
+@media screen and (max-width: 4000px) {
+
+
+  .desktoplayering{
+      
+      width: 400px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      
+  }
+}
+
+/* For iPad Pro 1024 to Pixel 2 XL 411 */
+
+@media screen and (max-width: 1431px) {
+
+  .demo img {
+  
+      width: 400px;
+    }
+  
+
+}
+  
+
+
+/* For Pixel 2 XL 411 to iPhone X 375 */
+
+@media screen and (max-width: 800px) {
+
+  .demo img {
+  
+      width: 300px;
+    }
+  
+
+  article{
+      columns: 1;
+  
+  }
+
+
+}
