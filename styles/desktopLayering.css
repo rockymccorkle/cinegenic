@@ -1,0 +1,492 @@
+/* Rocky Responsive */
+
+/* Body */
+body {
+  background-color: rgba(86, 58, 130, 1.0);
+  margin: 0;
+  font-family: "Avenir", Arial, serif;
+}
+section {
+  padding: 5rem 0;
+}
+a {
+  text-decoration     : none;
+}
+.container {
+  margin: 0 auto;
+}
+.big-text {
+  font-family: "Avenir-Black", Arial, serif;;
+  font-size: 250px;
+  line-height: 220px;
+  color: #fff;
+}
+.big-text .text-highlight {
+  background-color: rgba(209, 168, 10, 1.0);;
+}
+
+/* Overall */
+.desktoplayering {
+  position            : relative;
+  margin              : 0px;
+}
+
+/* Nav Bar */
+.headerstack {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+  color: #fff;
+}
+
+.headerstack svg {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+/* Above the Fold */
+.abovethefold {
+  height: 30rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color:#fff;
+  -ms-transform       : rotate(0deg); 
+  -webkit-transform   : rotate(0deg); 
+  transform           : rotate(0deg);
+}
+
+.abovethefold .headerimg {
+  float: right;
+  width: 60%;
+  height: auto;
+}
+
+.abovethefold .linksstack {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : column;
+  align-items         : flex-start;
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 643px;
+  height              : auto;
+  width               : 156px;
+  position            : absolute;
+  margin              : 0;
+  left                : 24px;
+  -ms-transform       : rotate(0deg); 
+  -webkit-transform   : rotate(0deg); 
+  transform           : rotate(0deg);
+}
+
+.abovethefold .lockup {
+  position            : absolute;
+  top                 : 75px;
+  left                : 0px;
+}
+.abovethefold .lockup .highlight {
+  background-color    : rgba(209, 168, 10, 1.0);
+  top                 : 175px;
+  height              : 336px;
+  width               : 1010px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); 
+  -webkit-transform   : rotate(0deg); 
+  transform           : rotate(0deg);
+}
+.abovethefold .lockup .graphicdesign {
+  -ms-transform       : rotate(0deg); 
+  -webkit-transform   : rotate(0deg); 
+  transform           : rotate(0deg);
+  font-family         : "Avenir-Black", Arial, serif;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+}
+.schoolawayfromschool {
+  font-family         : "Avenir-Heavy", Arial, serif;
+  font-size           : 63.0px;
+  color               : rgba(240, 230, 164, 1.0);
+  line-height         : 86.0px;
+  margin-left: .5rem;
+}
+
+.sub-nav{
+  list-style: none;
+  padding-left: .5rem;
+  color: #fff;
+}
+.sub-nav li {
+  padding: .25rem 0;
+}
+.sub-nav li a {
+  color: #fff;
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.quote1 {
+  color: #fff;
+  text-align: center;
+  font-size: 1.5rem;
+}
+.quote1 span {
+  text-decoration: underline;
+}
+
+.downarrow {
+  position: relative;
+  padding-top: 4rem;
+  text-align: center;
+  margin-bottom: -15rem;
+}
+.downarrow img {
+  max-width: 100%;
+}
+.downarrow .this-way{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(90deg);
+  color: #fff;
+  font-size: 2rem;
+}
+
+/* Overview, Curriculum */
+#overview, 
+#curriculum {
+  background-color: #fff;
+}
+#overview {
+  padding-top: 11rem;
+}
+.section-number {
+  font-family         : "Avenir-Black", Arial, serif;
+  font-size           : 84.0px;
+  color               : rgba(209, 168, 10, 1.0);
+  line-height         : 90px;
+}
+.section-underline {
+  width: 100px;
+  height: auto;
+}
+
+.section-subhead {
+  padding: 2rem 0;
+  font-family         : "Avenir-Black", Arial, serif;
+  font-size           : 26.0px;
+  color               : rgba(86, 58, 130, 1.0);
+  line-height         : 33.0px;
+}
+
+.section-stack {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : row;
+  align-items         : flex-start;
+  font-family         : "Avenir-Roman", Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  line-height         : 22.0px;
+}
+.section-stack .column {
+  width: 50%;
+}
+.section-stack .column:first-child {
+  padding-right: .75rem;
+}
+
+/* Curriculum specific */
+.cirriculum .section-underline {
+  padding-bottom: 2rem;
+}
+img.cirriculumpic {
+  margin-top: 2rem;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Stats */
+#stats{
+  color: #fff;
+}
+.statsheader {
+  font-family         : "Avenir-Black", Arial, serif;
+  font-size           : 58.0px;
+  color               : rgba(240, 230, 164, 1.0);
+  line-height         : 75.0px;
+  padding-bottom      : 5rem;
+  text-align:         center;
+}
+.stats-row {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 3rem;
+}
+.stats-row > div {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 50%;
+}
+.stat-label {
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 2px;
+  margin-bottom: 1rem;
+}
+
+/* apply by */
+#applyBy {
+  position: relative;
+  background-image: url("../img/arrow-left.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+#applyBy .big-text {
+  line-height: 250px;
+}
+#applyBy .leftArrow {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transform: rotate(90deg);
+}
+#applyBy .leftArrow img {
+  width: 500px;
+  height: auto;
+}
+
+.applyby {
+  font-family         : "Avenir-Black", Arial, serif;
+  font-size           : 84.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.84px;
+  line-height         : 103.0px;
+}
+
+.img-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.img-card-copy {
+  padding: 50px 24px;
+  background-color: #fff;
+  width: 50%;
+}
+.card-copy-title {
+  font-size: 24px;
+  font-weight: 700;
+  padding: 2rem 0;
+}
+
+#tuition .img-card {
+  background-image: url("../img/c8.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#admissions .img-card {
+  background-image: url("../img/e8.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+
+/* student work */
+.buportfolios {
+  font-family         : "Avenir-Black", Arial, serif;
+  font-size           : 84.0px;
+  color               : #fff;
+  line-height         : 44px;
+  padding-bottom: 3rem;
+}
+.buportfolios img {
+  width: 109px;
+  height: auto;
+}
+.studentworkimages {
+  display: flex;
+  flex-direction: row;
+  padding: 3rem 0;
+}
+.stacked-item {
+  width: 25%;
+  padding-right: .25rem;
+}
+.stacked-item img {
+  width: 100%;
+  height: auto;
+}
+.studentcopy {
+  color: #fff;
+}
+
+footer {
+  padding: 3rem 0;
+  color: #fff;
+}
+footer .container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+footer img {
+  width: 150px;
+  height: auto;
+  margin-right: 2rem;
+}
+footer .address {
+  font-family: "Avenir-Book", Arial, serif;
+  font-size: 20.0px;
+  line-height: 27.0px;
+}
+
+/* animations */
+a .hover-line {
+    background-image: linear-gradient(#D1A80A,#D1A80A);
+    background-position: center 84%;
+    background-repeat: no-repeat;
+    background-size: 0 4px;
+    transition: background-size .25s cubic-bezier(.785,.135,.15,.86) 0s,-webkit-background-size .25s cubic-bezier(.785,.135,.15,.86) 0s,-moz-background-size .25s cubic-bezier(.785,.135,.15,.86) 0s;
+    padding: 2px 0;
+}
+a .hover-line:hover {
+    background-size: 100% 4px;
+}
+
+/* Small only */
+@media screen and (max-width: 39.9375em) {
+  .container { 
+    max-width: 640px;
+    padding-left: .25rem;
+    padding-right: .25rem;
+  }
+  .big-text {
+    font-size: 80px;
+    line-height: 70px;
+  }
+  .schoolawayfromschool {
+    font-size: 44px;
+    line-height: 44px;
+  }
+  .abovethefold .headerimg {
+    float: none;
+    width: 100%;
+  }
+  .abovethefold .lockup .highlight {
+    height: 86px;
+    width: 326px;
+    top: 55px;
+  }
+  section#overview {
+    padding-top: 16rem;
+  }
+  .section-number {
+    font-size: 48px;
+    line-height: 48px;
+  }
+  .section-stack {
+    flex-direction: column;
+  }
+  .section-stack .column {
+    width: 100%;
+  }
+  .section-stack .column:first-child {
+    padding-right: 0;
+  }
+  #applyBy .big-text {
+    line-height: 100px;
+  }
+  .applyby {
+    font-size: 36px;
+    line-height: 56px;
+  }
+  .img-card-copy {
+    width: 100%;
+  }
+  .studentworkimages {
+    flex-direction: column;
+  }
+  .stacked-item {
+    width: 100%;
+    padding-right: 0;
+    padding-bottom: .25rem;
+  }
+}
+  
+/* Medium and up */
+@media screen and (min-width: 40em) {
+}
+
+/* Medium only */
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+  .container { 
+    max-width: 760px;
+    padding-left: .35rem;
+    padding-right: .35rem;
+  }
+  .big-text {
+    font-size: 140px;
+    line-height: 130px;
+  }
+  .abovethefold .lockup .highlight {
+    top: 88px;
+    height: 170px;
+    width: 570px;
+  }
+  .abovethefold .lockup .schoolawayfromschool {
+    font-size: 40px;
+    line-height: 46px;
+  }
+  .quote1 {
+    max-width: 700px;
+    margin: 2rem auto;
+  }
+  #overview {
+    padding-top: 17rem;
+  }
+  .section-number {
+    font-size: 72px;
+    line-height: 72px;
+  }
+  #applyBy .big-text {
+    line-height: 150px;
+  }
+}
+
+/* Large and up */
+@media screen and (min-width: 64em) {
+  .abovethefold {
+    height: 100vh;
+  }
+  .quote1 {
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 1.75rem;
+    line-height: 1.5;
+  }
+}
+
+/* Large only */
+@media screen and (min-width: 64em) and (max-width: 74.9375em) {
+  .container { max-width: 1024px;}
+  .abovethefold .lockup .highlight {
+    top: 115px;
+    height: 280px;
+    width: 815px;
+  }
+  .abovethefold .lockup .schoolawayfromschool {
+    top: 330px;
+  }
+  #overview {
+    padding-top: 15rem;
+  }
+}
+
+/* Ex Large and up */
+@media screen and (min-width: 64em) {
+  .container { max-width: 1400px;}
+}
